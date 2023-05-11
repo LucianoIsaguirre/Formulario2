@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Estilos.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Formulario para Socios</h1>
+        <form action="#" method="get">
+
+            <fieldset>
+                <Legend>Datos Personales</Legend>
+            
+            Ingresar Nombre <input type="text" name="Nomb_Socio" id="Nbre" ><br>
+            Ingresar Apellido <input type="text" name="Ap_Socio" id="Apell"><br>
+            Ingrese Tipo de Documento
+            <br><input type="checkbox" name="Tipo_Doc" value="DNI">DNI 
+            <input type="checkbox" name="Tipo_Doc" value="Libreta_Civ">Libreta Cívica
+            <input type="checkbox" name="Tipo_Doc" value="Libreta_Enr">Libreta Enloramiento
+            <input type="checkbox" name="Tipo_Doc" value="Cédula_Id">Cédula de Identidad
+            <br>
+            Ingrese DNI <input type="number" name="Ndni" id="Ndni" min="1"><br>
+            Sexo
+            <br><input type="radio" name="Sexo_Socio" value="Masculino" checked="True"> Masculino
+            <input type="radio" name="Sexo_Socio" value="Femenino"> Femenino
+            <br>
+            Materia que Adeuda
+            <select id="Elegir_Mat" name="Elegir">
+                <option value="Matematica">Matematica</option>
+                <option value="Lengua">Lengua</option>
+                <option value="Historia">Historia</option>
+                <option value="Geografia">Geografia</option>
+                <option value="Programacion">Programacion</option>
+            </select><br>
+            Ingresar Correo Electronico <input type="email" name="Mail_Socio" id="Correo"><br>
+            Ingrese Edad <input type="number" name="Edad" id="Ed" min="12" max="19"><br>
+            Ingresar Fecha de Nacimiento <input type="date" name="Ap_Socio" id="FechaN" min="2011-01-01"><br>
+            Ingrese Red Social <input type="url" name="URL_RedSocial"><br>
+            <br>
+            <input type="image" src="Foto (1).png" width="100" height="100" name="img_soc" id="img" onclick="alert('Bienvenido al Formulario para Socios')"><br><br>
+            <input type="submit" value="Grabar" onclick="alert('Formulario Enviado')">
+            <input type="reset" value="Cancelar" onclick="alert('Formulario Cancelado')">
+            
+            </fieldset>
+            <br>
+    </body>
+</html>
